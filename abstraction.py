@@ -1,13 +1,6 @@
 """
 Map raw event labels to the canonical activity vocabulary.
 
-Supports:
-
-- dictionary: exact match against canonical activity names
-- retrieval: fuzzy matching with a token-based fallback
-- llm: language-model-based mapping constrained to the canonical vocabulary
-"""
-
 import re
 import difflib
 from vocabulary import ALL_CANON, SYNONYMS, SIGNATURES
@@ -95,7 +88,7 @@ _GLOSS = {
     "record verifier identity": "log who verified the result",
 }
 
-# example mappings for the prompt
+# example mappings for prompt
 _FEWSHOT = [
     ("field data evaluation", "Evaluate post-market data"),
     ("review post market data", "Evaluate post-market data"),
