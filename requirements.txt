@@ -1,0 +1,5 @@
+pm4py==2.7.22.5
+matplotlib==3.11.0
+numpy==2.5.0
+pandas==3.0.3
+anthropic==0.117.0

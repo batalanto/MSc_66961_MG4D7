@@ -1,0 +1,30 @@
+﻿Coding sheet. Fill the yellow cells with a whole number from 1 to 5. Delete the example row before you start.,,,
+Reference,Wording (short),Descriptive - Normative (1 to 5),Abstract - Granular (1 to 5)
+Art. 9(1),"RMS established, implemented, documented, maintained",1,3
+Art. 9(2) intro,continuous iterative process with regular review,3,1
+Art. 9(2)(a),identification and analysis of foreseeable risks,5,2
+Art. 9(2)(b),estimation and evaluation of risks incl. misuse,3,3
+Art. 9(2)(c),evaluation of risks from post-market data (Art. 72),3,4
+Art. 9(2)(d),"adoption of appropriate, targeted measures",5,1
+Art. 9(3),risks limited to those reasonably mitigable via design or info,5,3
+Art. 9(4),due consideration to combined effects of requirements,5,2
+Art. 9(5) intro,residual risk judged acceptable,5,2
+Art. 9(5)(a),eliminate or reduce risks via adequate design,5,3
+Art. 9(5)(b),implement adequate mitigation and control,5,2
+Art. 9(5)(c),provide info per Art. 13 and training,1,4
+Art. 9(5) out,"due consideration to knowledge, experience, context",5,3
+Art. 9(6),test system to identify measures and ensure compliance,3,3
+Art. 9(7),testing may include real-world conditions,1,3
+Art. 9(8),testing against pre-defined metrics and thresholds,1,5
+Art. 9(9),consideration of adverse impact on vulnerable groups,4,4
+Art. 9(10),RMS may combine with processes under other Union law,1,3
+Art. 12(1),automatic recording of events over the lifetime,1,4
+Art. 12(2) intro,ensure traceability appropriate to intended purpose,5,2
+Art. 12(2)(a),record events relevant to identifying risk situations,5,3
+Art. 12(2)(b),record events for post-market monitoring (Art. 72),1,4
+Art. 12(2)(c),record events for operational monitoring (Art. 26(5)),1,4
+Art. 12(3) intro,"for Annex III systems, logging shall provide at minimum",1,3
+Art. 12(3)(a),record start and end time of each use,1,5
+Art. 12(3)(b),record the reference database checked against,1,5
+Art. 12(3)(c),record the input data leading to a match,1,5
+Art. 12(3)(d),record identity of persons verifying results,1,5

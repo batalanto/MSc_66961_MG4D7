@@ -1,0 +1,29 @@
+reference,dn,ag,activity,kind,probe_fitness,detected,colour
+Art. 9(1),1.0,2.5,Establish RMS,structural,0.97,True,#1D6F5C
+Art. 9(2) intro,3.0,1.0,,open,1.0,False,#C0473F
+Art. 9(2)(a),5.0,2.0,Identify risks,dual,0.97,True,#C8922A
+Art. 9(2)(b),2.5,3.5,Estimate risks,dual,0.97,True,#C8922A
+Art. 9(2)(c),2.5,4.5,Evaluate post-market data,structural,0.97,True,#1D6F5C
+Art. 9(2)(d),5.0,1.0,Adopt measures,dual,0.97,True,#C8922A
+Art. 9(3),4.5,2.5,,open,1.0,False,#C0473F
+Art. 9(4),5.0,2.0,,open,1.0,False,#C0473F
+Art. 9(5) intro,5.0,2.5,Judge residual risk,open,1.0,False,#C0473F
+Art. 9(5)(a),4.5,3.5,Reduce via design,dual,0.97,True,#C8922A
+Art. 9(5)(b),5.0,2.5,Implement mitigation,dual,0.97,True,#C8922A
+Art. 9(5)(c),1.0,4.0,Provide info,structural,0.97,True,#1D6F5C
+Art. 9(5) out,5.0,3.5,,open,1.0,False,#C0473F
+Art. 9(6),3.0,2.5,Test AI system,dual,0.97,True,#C8922A
+Art. 9(7),1.0,3.0,,permissive,,False,#AEB6C0
+Art. 9(8),1.0,5.0,Define metrics,structural,0.97,True,#1D6F5C
+Art. 9(9),4.0,4.0,,open,1.0,False,#C0473F
+Art. 9(10),1.0,2.5,,permissive,,False,#AEB6C0
+Art. 12(1),1.0,4.0,enable logging,structural,0.933,True,#1D6F5C
+Art. 12(2) intro,4.5,2.0,,open,1.0,False,#C0473F
+Art. 12(2)(a),5.0,3.5,record risk-relevant events,dual,0.933,True,#C8922A
+Art. 12(2)(b),1.0,3.5,record post-market events,structural,0.933,True,#1D6F5C
+Art. 12(2)(c),1.0,4.5,record operational events,structural,0.933,True,#1D6F5C
+Art. 12(3) intro,1.0,3.0,,permissive,,False,#AEB6C0
+Art. 12(3)(a),1.0,5.0,record use period,structural,0.933,True,#1D6F5C
+Art. 12(3)(b),1.0,5.0,record reference DB,structural,0.933,True,#1D6F5C
+Art. 12(3)(c),1.0,5.0,record matching input,structural,0.933,True,#1D6F5C
+Art. 12(3)(d),1.0,4.5,record verifier identity,structural,0.933,True,#1D6F5C
