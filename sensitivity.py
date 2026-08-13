@@ -1,5 +1,5 @@
 """
-Sensitivity analysis for the two thresholds in the pipeline.
+Sensitivity analysis for the 2 thresholds in the pipeline.
 Sweeps the conformance threshold (stage three) and the retrieval cutoff (stage two)
 and shows how stable the true-red and false-green result is in Times New Roman style.
 """
