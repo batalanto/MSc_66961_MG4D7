@@ -1,19 +1,5 @@
 """
 Inter-coder reliability for the two construct-space axes, for two coders.
-
-Each coder fills a copy of the coding sheet and exports it as a CSV with three
-columns, reference, dn and ag, where dn is the Descriptive to Normative score
-and ag is the Abstract to Granular score, each a whole number from 1 to 5.
-
-  python kappa.py coder_1.csv coder_2.csv
-  python kappa.py                      # picks up coder_1.csv and coder_2.csv
-
-For each axis you get the raw exact agreement, the within one agreement, and
-Cohen kappa in two forms, unweighted and quadratic weighted. On a one to five
-gradient the quadratic weighted kappa is the fairer main figure, because it
-treats a four against five far more gently than a one against five. The script
-also lists the clauses where the two coders differ by two or more, so you can
-reconcile exactly those before you finalise the coding.
 """
 
 import csv
@@ -23,9 +9,7 @@ K = 5  # the scale runs from 1 to 5
 
 
 def read_coder(path):
-    """Read an exported coding sheet. Tolerates a title line above the header and
-    the real column names Reference, Descriptive ... and Abstract ..., as well as
-    the short names reference, dn and ag."""
+    """Read exported coding sheet"""
     with open(path, newline="") as f:
         rows = list(csv.reader(f))
     header_idx = None
@@ -64,7 +48,7 @@ def read_coder(path):
 
 
 def cohen_kappa(a, b, weighted):
-    """Cohen kappa for two score lists. Quadratic weights if weighted is True."""
+    """Cohen kappa for 2 score lists -> Quadratic weights if weighted is true"""
     n = len(a)
     O = [[0.0] * (K + 1) for _ in range(K + 1)]
     for x, y in zip(a, b):
